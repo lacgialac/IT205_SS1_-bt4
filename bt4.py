@@ -1,17 +1,12 @@
-student_name = input("Nhap ten sinh vien: ")
-student_age = int(input("Nhap tuoi: "))
-average_score = float(input("Nhap diem trung binh: "))
+ma_benh_nhan = input("Nhập mã bệnh nhân: ")
+nhiet_do = float(input("Nhập nhiệt độ cơ thể: "))
+nhip_tim = int(input("Nhập nhịp tim: "))
 
-bonus_score = average_score + 0.5
+print("\n=== KẾT QUẢ CHUẨN HÓA DỮ LIỆU ===")
+print("Mã bệnh nhân:", ma_benh_nhan)
+print("Nhiệt độ cơ thể:", nhiet_do)
+print("Kiểu dữ liệu hệ thống ghi nhận:", type(nhiet_do))
+print("Nhịp tim:", nhip_tim)
+print("Kiểu dữ liệu hệ thống ghi nhận:", type(nhip_tim))
 
-print("\nThong tin sinh vien:")
-print(f"Ten sinh vien: {student_name}")
-print(f"Tuoi: {student_age}")
-print(f"Diem trung binh: {average_score}")
-print(f"Diem sau thuong: {bonus_score}")
-
-print("\nKieu du lieu cua cac bien:")
-print(type(student_name))
-print(type(student_age))
-print(type(average_score))
-print(type(bonus_score))
+print("\nThông báo: Dữ liệu hợp lệ, màn hình Monitor đã sẵn sàng kết nối!")
